@@ -1,4 +1,4 @@
-package com.ankers.dao;
+package com.ankers.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +10,6 @@ public class UserController {
     @RequestMapping("/show")
     @ResponseBody
     public String helloWorld() {
-        return "Hello World!";
+        return "Hello World! 8888";
     }
 }
