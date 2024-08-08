@@ -30,6 +30,8 @@ public class BookController {
         List<Book> books = bookService.getAll();
         Integer code = books != null ? Code.SELECT_OK : Code.SELECT_ERR;
         String msg = books != null ? "Books selected" : "Books not selected";
+
+        System.out.println("getAll执行================");
         return new Result(code, msg, books);
     }
 
