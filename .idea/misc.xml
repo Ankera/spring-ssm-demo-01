@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-ssm-01-po/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-ssm-01-po/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ssm-01-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-ssm-01-dao/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
